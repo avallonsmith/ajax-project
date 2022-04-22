@@ -1,0 +1,71 @@
+* {
+  font-family: "Proza Libre", sans-serif;
+  font-style: normal;
+}
+
+.menu-background {
+  min-height: 100vh;
+  padding: 0 1.5rem;
+  background-image: url("../images/homepage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button {
+  background-color: #fef9cf;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 274px;
+  height: 80px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.search-button {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.pokedex-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.team-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .menu-background {
+    background-image: url("../images/mobile-homepage.png");
+  }
+
+  .search-button {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .pokedex-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .team-button {
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+}
