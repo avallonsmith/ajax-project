@@ -53,27 +53,6 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 576px) {
-  .menu-background {
-    background-image: url("../images/mobile-homepage.png");
-  }
-
-  .search-button {
-    margin-top: 60px;
-    margin-bottom: 30px;
-  }
-
-  .pokedex-button {
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-
-  .team-button {
-    margin-top: 20px;
-    margin-bottom: 200px;
-  }
-}
-
 .search-background {
   min-height: 100vh;
   padding: 0 1.5rem;
@@ -115,6 +94,10 @@
   margin-top: 2px;
 }
 
+.pokeball:hover {
+  cursor: pointer;
+}
+
 .pokedex-background {
   min-height: 100vh;
   padding: 0 1.5rem;
@@ -153,4 +136,65 @@
   line-height: 98px;
   margin-top: 250px;
   text-align: center;
+}
+
+.entry-background {
+  min-height: 100vh;
+  padding: 0 1.5rem;
+  background-image: url("../images/entry.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 576px) {
+  .menu-background {
+    background-image: url("../images/mobile-homepage.png");
+  }
+
+  .search-button {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .pokedex-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .team-button {
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  .search-background {
+    background-image: url("../images/mobile-search.png");
+  }
+
+  .textbox {
+    width: 298px;
+    height: 61px;
+    margin-top: 140px;
+  }
+
+  .pokeball {
+    width: 70px;
+    height: 70px;
+    margin-top: 135px;
+  }
+
+  .pokedex-background {
+    background-image: url("../images/mobile-pokedex.png");
+  }
+
+  .pokedex-title {
+    margin-left: 30px;
+  }
+
+  .team-background {
+    background-image: url("../images/mobile-team.png");
+  }
+
+  .entry-background {
+    background-image: url("../images/mobile-entry.png");
+  }
 }
